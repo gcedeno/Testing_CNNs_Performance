@@ -1,0 +1,9 @@
+alexnet_pet-images.txt
+alexnet_test.txt
+alexnet_uploaded-images.txt
+resnet_pet-images.txt
+resnet_uploaded-images.txt
+*.bat
+*.sh
+vgg_pet-images.txt
+vgg_uploaded-images.txt
