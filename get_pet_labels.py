@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND-revision/intropyproject-classify-pet-images/get_pet_labels.py
-#
 # PROGRAMMER:Gustavo Cedeno
 # DATE CREATED: 29.12.2018
 # REVISED DATE:
@@ -19,10 +15,11 @@
 # Imports python modules
 from os import listdir
 
-# TODO 2: Define get_pet_labels function below please be certain to replace None
-#       in the return statement with results_dic dictionary that you create
-#       with this function
+#  Define get_pet_labels function below please be certain to replace None
+#  in the return statement with results_dic dictionary that you create
+#   with this function
 #
+
 def get_pet_labels(image_dir):
     """
     Creates a dictionary of pet labels (results_dic) based upon the filenames
@@ -40,8 +37,7 @@ def get_pet_labels(image_dir):
       List. The list contains for following item:
          index 0 = pet image label (string)
     """
-    # Replace None with the results_dic dictionary that you created with this
-    # function
+    
     # Imports only listdir function from OS module
     from os import listdir
     ########### Modification based on review ##########

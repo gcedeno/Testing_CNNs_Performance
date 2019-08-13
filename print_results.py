@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND-revision/intropyproject-classify-pet-images/print_results.py
-#
+
 # PROGRAMMER: Gustavo Cedeno
 # DATE CREATED: 02.01.2019
 # REVISED DATE:
@@ -26,10 +23,10 @@
 #         This function does not output anything other than printing a summary
 #         of the final results.
 ##
-# TODO 6: Define print_results function below, specifically replace the None
-#       below by the function definition of the print_results function.
-#       Notice that this function doesn't to return anything because it
-#       prints a summary of the results using results_dic and results_stats_dic
+#  Define print_results function below, specifically replace the None
+#  below by the function definition of the print_results function.
+#  Notice that this function doesn't to return anything because it
+#  prints a summary of the results using results_dic and results_stats_dic
 #
 def print_results(results_dic, results_stats_dic, model,
                   print_incorrect_dogs = False, print_incorrect_breed = False):

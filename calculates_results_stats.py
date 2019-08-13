@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND-revision/intropyproject-classify-pet-images/calculates_results_stats.py
-#
 # PROGRAMMER:Gustavo Cedeno
 # DATE CREATED:01.02.2019
 # REVISED DATE:
@@ -38,9 +34,6 @@
 #            pct_correct_notdogs - percentage of correctly classified NON-dogs
 #
 ##
-# TODO 5: Define calculates_results_stats function below, please be certain to replace None
-#       in the return statement with the results_stats_dic dictionary that you create
-#       with this function
 #
 def calculates_results_stats(results_dic):
     """
